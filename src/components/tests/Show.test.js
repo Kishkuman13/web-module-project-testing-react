@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 
 import Show from './../Show';
 
-const testShow = {
+export const testShow = {
     //add in approprate test data structure here.
     name: 'That one Show',
     summary: 'The summary that you have been waiting for',
@@ -18,7 +18,7 @@ const testShow = {
             id: 1,
             name: 'Season 2: The Second',
             episodes: []
-        },
+        }
     ]
 }
 
